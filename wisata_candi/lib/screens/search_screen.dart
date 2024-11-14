@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:wisata_candi/data/candi_data.dart';
 import 'package:wisata_candi/models/candi.dart';
 
-class SeacrhScreen extends StatefulWidget {
-  const SeacrhScreen({super.key});
+class SearchScreen extends StatefulWidget {
+  const SearchScreen({super.key});
 
   @override
-  State<SeacrhScreen> createState() => _SeacrhScreenState();
+  State<SearchScreen> createState() => _SearchScreenState();
 }
 
-class _SeacrhScreenState extends State<SeacrhScreen> {
+class _SearchScreenState extends State<SearchScreen> {
   // TODO: 1. Deklarasikan variable yang dibutuhkan
   List<Candi> _filteredCandis = candiList;
   String _seacrhQuery = '';
