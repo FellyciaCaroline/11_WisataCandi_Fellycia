@@ -100,7 +100,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   ),
                 ),
                 //TODO: 6.Pasang TextFormField Kata Sandi
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 TextFormField(

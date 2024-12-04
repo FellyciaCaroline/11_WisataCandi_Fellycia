@@ -75,7 +75,7 @@ class _SignInScreenState extends State<SignInScreen> {
                   ),
                 ),
                 //TODO: 6.Pasang TextFormField Kata Sandi
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 TextFormField(

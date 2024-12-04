@@ -84,14 +84,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 Divider(
                   color: Colors.deepPurple[100],
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 4,
                 ),
                 Row(
                   children: [
                     SizedBox(
                       width: MediaQuery.of(context).size.width / 3,
-                      child: Row(
+                      child: const Row(
                         children: [
                           Icon(
                             Icons.lock,
@@ -117,13 +117,13 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   ],
                 ),
 
-                SizedBox(
+                const SizedBox(
                   height: 4,
                 ),
                 Divider(
                   color: Colors.deepPurple[100],
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 5,
                 ),
                 //   Row(
@@ -151,13 +151,13 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     debugPrint('Icon Edit Ditekan');
                   },
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 4,
                 ),
                 Divider(
                   color: Colors.deepPurple[100],
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 4,
                 ),
                 ProfileItemInfo(
