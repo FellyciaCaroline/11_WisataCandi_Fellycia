@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   cached_network_image: ^3.4.1
+  shared_preferences: ^2.3.3
 
 dev_dependencies:
   flutter_test:
@@ -18,5 +19,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
   assets:
     - images/
